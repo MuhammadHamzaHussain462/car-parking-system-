@@ -1,0 +1,14 @@
+SmartPark AI — RF-DETR model checkpoint
+
+Copy your trained RF-DETR Small PyTorch checkpoint into this folder.
+
+Required filename and path:
+    models/weights.pt
+
+The checkpoint is intentionally not included in this GitHub-ready ZIP.
+Do not rename a different model file to this name. The application expects
+the RF-DETR checkpoint downloaded from your Roboflow training run.
+
+Local inference uses the RF-DETR Python package and does not require a
+Roboflow hosted inference API key. The checkpoint must be supplied separately
+to any deployment environment that needs to run detections.

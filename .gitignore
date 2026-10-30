@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.streamlit/secrets.toml
+.env
+.DS_Store
+
+# Local model checkpoints (supply separately; do not commit large weights)
+models/*.pt
+models/*.pth
+models/*.ckpt
+
+# Generated outputs
+assets/outputs/*
+!assets/outputs/.gitkeep
